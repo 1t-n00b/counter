@@ -6,7 +6,7 @@ type ButtonPropsType = {
     name:string
 }
 
-const Buttton = (props: ButtonPropsType) => {
+const BUTTON = (props: ButtonPropsType) => {
 
     return (
         <div>
@@ -15,4 +15,4 @@ const Buttton = (props: ButtonPropsType) => {
     );
 };
 
-export default Buttton;
+export default BUTTON;

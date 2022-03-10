@@ -1,5 +1,5 @@
 import React from "react";
-import BUTTTON from "./BUTTTON";
+import BUTTON from "./BUTTON"
 
 type CounterPropsType = {
     num: number
@@ -32,8 +32,8 @@ const Counter = (props: CounterPropsType) => {
             </div>
 
             <div className={"btn_group"}>
-                <BUTTTON callback={onClickForUpCounter} BOOLEAN_VALUE={BOOLEAN_VALUE_FOR_ADD} name={"add"}/>
-                <BUTTTON callback={onClickForResetNum} BOOLEAN_VALUE={BOOLEAN_VALUE_FOR_RESET} name={"reset"}/>
+                <BUTTON callback={onClickForUpCounter} BOOLEAN_VALUE={BOOLEAN_VALUE_FOR_ADD} name={"add"}/>
+                <BUTTON callback={onClickForResetNum} BOOLEAN_VALUE={BOOLEAN_VALUE_FOR_RESET} name={"reset"}/>
             </div>
         </div>
     );
