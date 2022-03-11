@@ -1,4 +1,4 @@
-Скриншот:
+
 ![Alt text](https://github.com/1t-n00b/mini_counter/blob/master/Untitled.jpg)
 # Getting Started with Create React App
 
