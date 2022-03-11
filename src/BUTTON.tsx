@@ -1,8 +1,8 @@
 import React from "react";
 
 type ButtonPropsType = {
-    callback:()=> void
-    BOOLEAN_VALUE: boolean
+    onClick?: ()=> void
+    disabled?: boolean
     name:string
 }
 
@@ -10,7 +10,7 @@ const BUTTON = (props: ButtonPropsType) => {
 
     return (
         <div>
-            <button onClick={props.callback} disabled={props.BOOLEAN_VALUE}> {props.name}</button>
+            <button onClick={props.onClick} disabled={props.disabled}> {props.name}</button>
         </div>
     );
 };

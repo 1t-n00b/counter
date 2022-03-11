@@ -7,9 +7,15 @@ function App() {
     let MAX_VALUE = 7
 
     let [num, setNum] = useState<number>(MIN_VALUE)
+    
     return (
         <div className="App">
-            <Counter num={num} setNum={setNum} MIN_VALUE={MIN_VALUE} MAX_VALUE={MAX_VALUE}/>
+            <Counter
+                num={num}
+                setNum={setNum}
+                minValue={MIN_VALUE}
+                maxValue={MAX_VALUE}
+            />
         </div>
     );
 }
